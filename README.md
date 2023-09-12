@@ -13,11 +13,10 @@
 </br>
 
 <p align="center">
-  <a href="https://img.shields.io/github/stars/shunny2/nlw-ia?style=social"><img src="https://img.shields.io/github/stars/shunny2/nlw-ia?style=social" alt="Repo Stars"/></a>
-  <a href="https://img.shields.io/github/forks/shunny2/nlw-ia?style=social"><img src="https://img.shields.io/github/forks/shunny2/nlw-ia?style=social" alt="Repo Forks"/></a>
-  <a href="https://img.shields.io/github/license/shunny2/nlw-ia?style=social"><img src="https://img.shields.io/github/license/shunny2/nlw-ia?style=social" alt="License"/></a>
+  <a href="https://img.shields.io/github/stars/shunny2/nlw-ai?style=social"><img src="https://img.shields.io/github/stars/shunny2/nlw-ai?style=social" alt="Repo Stars"/></a>
+  <a href="https://img.shields.io/github/forks/shunny2/nlw-ai?style=social"><img src="https://img.shields.io/github/forks/shunny2/nlw-ai?style=social" alt="Repo Forks"/></a>
+  <a href="https://img.shields.io/github/license/shunny2/nlw-ai?style=social"><img src="https://img.shields.io/github/license/shunny2/nlw-ai?style=social" alt="License"/></a>
 </p>
-
 
 ## About Application
 
@@ -77,7 +76,7 @@ This project was created during the <b>NLW</b> (Next Level Week) event organized
 
 First, start by cloning the repository:
 ```shell
-git clone https://github.com/shunny2/nlw-ia
+git clone https://github.com/shunny2/nlw-ai
 ```
 
 Open each of the folders and run the command below to install the project's dependencies.

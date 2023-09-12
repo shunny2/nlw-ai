@@ -61,6 +61,18 @@ This project was created during the <b>NLW</b> (Next Level Week) event organized
   </tbody>
 </table>
 
+### Database
+
+<table>
+  <thead>
+  </thead>
+  <tbody>
+    <td>
+      <a href="https://www.sqlite.org/" title="SQLite"><img width="128" height="128" src="https://cdn.worldvectorlogo.com/logos/sqlite.svg" alt="SQLite logo image." /></a>
+    </td>
+  </tbody>
+</table>
+
 ## How to Run
 
 First, start by cloning the repository:

@@ -57,6 +57,9 @@ This project was created during the <b>NLW</b> (Next Level Week) event organized
     <td>
       <a href="https://www.prisma.io/" title="Prisma ORM"><img width="128" height="128" src="https://cdn.worldvectorlogo.com/logos/prisma-2.svg" alt="Prisma ORM logo image." /></a>
     </td>
+    <td>
+      <a href="https://openai.com/" title="OpenAI"><img width="128" height="128" src="https://cdn.worldvectorlogo.com/logos/openai-2.svg" alt="OpenAI logo image." /></a>
+    </td>
   </tbody>
 </table>
 

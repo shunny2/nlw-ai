@@ -94,7 +94,7 @@ pnpm dev
 
 To see the database tables and data, run the command:
 ```bash
-npx prisma studio
+pnpm prisma studio
 ```
 
 ## Project Status

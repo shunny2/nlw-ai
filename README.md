@@ -89,7 +89,7 @@ pnpm install
 
 Run the command to start the server:
 ```bash
-pnpm run dev
+pnpm dev
 ```
 
 To see the database tables and data, run the command:

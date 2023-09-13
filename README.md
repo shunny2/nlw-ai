@@ -12,6 +12,8 @@
 
 </br>
 
+![nlw-ai](https://github.com/shunny2/nlw-ai/assets/72872854/8db00ca3-4c92-4520-9eff-99f92df40f0c)
+
 <p align="center">
   <a href="https://img.shields.io/github/stars/shunny2/nlw-ai?style=social"><img src="https://img.shields.io/github/stars/shunny2/nlw-ai?style=social" alt="Repo Stars"/></a>
   <a href="https://img.shields.io/github/forks/shunny2/nlw-ai?style=social"><img src="https://img.shields.io/github/forks/shunny2/nlw-ai?style=social" alt="Repo Forks"/></a>

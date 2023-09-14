@@ -12,7 +12,7 @@
 
 </br>
 
-![nlw-ai](https://github.com/shunny2/nlw-ai/assets/72872854/8db00ca3-4c92-4520-9eff-99f92df40f0c)
+![nlw-ai](https://github.com/shunny2/nlw-ai/assets/72872854/08fda467-f8a5-4f3c-98cc-cd56c05facfd)
 
 <p align="center">
   <a href="https://img.shields.io/github/stars/shunny2/nlw-ai?style=social"><img src="https://img.shields.io/github/stars/shunny2/nlw-ai?style=social" alt="Repo Stars"/></a>
@@ -101,7 +101,7 @@ pnpm prisma studio
 
 ## Project Status
 
-> Status: Developing.
+> Status: Completed.
 
 ## License
 

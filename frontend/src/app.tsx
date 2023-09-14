@@ -35,16 +35,16 @@ export function App() {
   return (
     <div className='min-h-screen flex flex-col'>
       <header className='px-6 py-3 flex items-center justify-between border-b'>
-        <h1 className='text-xl font-bold'>upload.ai</h1>
+        <h1 className='text-xl font-bold'>upload.<strong className='font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500'>ai</strong></h1>
 
         <div className='flex items-center gap-3'>
           <span className='text-sm text-muted-foreground'>
-            Desenvolvido com 🤍 no NLW IA da Rocketseat.
+            Desenvolvido com 💜 no NLW IA da Rocketseat.
           </span>
 
           <Separator orientation='vertical' className='h-6' />
 
-          <Button variant='outline'>
+          <Button variant='gradient'>
             <Github className='w-4 h-4 mr-2' />
             GitHub
           </Button>
@@ -69,7 +69,7 @@ export function App() {
           </div>
 
           <p className='text-sm text-muted-foreground'>
-            Lembre-se: você pode utilizar a variável <code className='font-bold'>{'{transcription}'}</code> no seu prompt para adicionar o conteúdo da transcrição do vídeo selecionado.
+            Lembre-se: você pode utilizar a variável <code className='font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500'>{'{transcription}'}</code> no seu prompt para adicionar o conteúdo da transcrição do vídeo selecionado.
           </p>
         </div>
 
@@ -121,7 +121,12 @@ export function App() {
 
             <Separator />
 
-            <Button disabled={isLoading} type='submit' className='w-full'>
+            <Button 
+              disabled={isLoading} 
+              type='submit' 
+              className='w-full'
+              variant='gradient'
+            >
               Executar
               <Wand2 className='w-4 h-4 ml-2' />
             </Button>

@@ -131,7 +131,7 @@ export function VideoInputForm(props: VideoInputFormProps) {
                 className='relative border flex rounded-md aspect-video cursor-pointer border-dashed text-sm flex-col gap-2 items-center justify-center text-muted-foreground hover:bg-primary/5'
             >
                 {previewUrl ? (
-                    <video src={previewUrl} controls={false} className='pointer-events-none absolute inset-0' />
+                    <video src={previewUrl} controls={false} className='object-fill h-[180px] w-80 pointer-events-none absolute inset-0' />
                 ) : (
                     <>
                         <FileVideo className='w-4 h-4' />
@@ -160,6 +160,7 @@ export function VideoInputForm(props: VideoInputFormProps) {
                 disabled={status !== 'waiting'} 
                 type='submit' 
                 className='w-full data-[success=true]:bg-emerald-400'
+                variant='gradient'
             >
                 {status === 'waiting' ? (
                     <>

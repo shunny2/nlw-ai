@@ -1,5 +1,5 @@
 import { ChangeEvent, FormEvent, useMemo, useRef, useState } from 'react'
-import { FileVideo, Upload } from 'lucide-react'
+import { FileVideo, Upload, CheckCircle } from 'lucide-react'
 import { Separator } from './ui/separator'
 import { Label } from './ui/label'
 import { Textarea } from './ui/textarea'
@@ -27,7 +27,7 @@ export function VideoInputForm(props: VideoInputFormProps) {
     const [status, setStatus] = useState<Status>('waiting')
 
     const promptInputRef = useRef<HTMLTextAreaElement>(null)
-
+    
     function handleFileSelected(event: ChangeEvent<HTMLInputElement>) {
         const { files } = event.currentTarget
 
@@ -168,6 +168,7 @@ export function VideoInputForm(props: VideoInputFormProps) {
                         <Upload className='w-4 h-4 ml-2' />
                     </>
                 ) : statusMessages[status]}
+                {status === 'success' ? <CheckCircle className='w-4 h-4 ml-2' /> : ''}
             </Button>
         </form>
     )

@@ -12,7 +12,7 @@
 
 </br>
 
-![nlw-ai](https://github.com/shunny2/nlw-ai/assets/72872854/08fda467-f8a5-4f3c-98cc-cd56c05facfd)
+![nlw-ai](https://github.com/shunny2/nlw-ai/assets/72872854/f36d30ba-6448-41d8-b872-29c775fcd11a)
 
 <p align="center">
   <a href="https://img.shields.io/github/stars/shunny2/nlw-ai?style=social"><img src="https://img.shields.io/github/stars/shunny2/nlw-ai?style=social" alt="Repo Stars"/></a>

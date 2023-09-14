@@ -111,6 +111,10 @@ export function VideoInputForm(props: VideoInputFormProps) {
             setStatus('success')
 
             props.onVideoUploaded(videoId)
+
+            setTimeout(() => {
+                setStatus('waiting')
+            }, 7000) // 7 seconds
         } catch (error: any) {
             setStatus('error')
             console.error('An error occurred during the file upload process.', error)

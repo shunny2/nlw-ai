@@ -168,7 +168,7 @@ export function VideoInputForm(props: VideoInputFormProps) {
                         <Upload className='w-4 h-4 ml-2' />
                     </>
                 ) : statusMessages[status]}
-                {status === 'success' ? <CheckCircle className='w-4 h-4 ml-2' /> : ''}
+                {status === 'success' && <CheckCircle className='w-4 h-4 ml-2' />}
             </Button>
         </form>
     )

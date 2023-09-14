@@ -38,7 +38,7 @@ export function App() {
         <h1 className='text-xl font-bold'>upload.<strong className='font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500'>ai</strong></h1>
 
         <div className='flex items-center gap-3'>
-          <span className='text-sm text-muted-foreground'>
+          <span className='text-sm hidden  sm:block text-muted-foreground'>
             Desenvolvido com 💜 no NLW IA da Rocketseat.
           </span>
 
@@ -51,7 +51,7 @@ export function App() {
         </div>
       </header>
 
-      <main className='flex-1 p-6 flex gap-6 '>
+      <main className='flex-1 p-6 md:flex gap-6'>
         <div className='flex flex-col flex-1 gap-4'>
           <div className='grid grid-rows-2 gap-4 flex-1'>
             <Textarea
@@ -68,12 +68,12 @@ export function App() {
             />
           </div>
 
-          <p className='text-sm text-muted-foreground'>
+          <p className='mb-6 md:mb-0 text-sm text-muted-foreground'>
             Lembre-se: você pode utilizar a variável <code className='font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500'>{'{transcription}'}</code> no seu prompt para adicionar o conteúdo da transcrição do vídeo selecionado.
           </p>
         </div>
 
-        <aside className='w-80 space-y-6'>
+        <aside className='w-full md:w-80 space-y-6'>
           <VideoInputForm onVideoUploaded={setVideoId} />
           
           <Separator />

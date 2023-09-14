@@ -73,7 +73,7 @@ export function App() {
           </p>
         </div>
 
-        <aside className='w-full md:w-80 space-y-6'>
+        <aside className='w-full md:w-80 space-y-2'>
           <VideoInputForm onVideoUploaded={setVideoId} />
           
           <Separator />
@@ -104,6 +104,8 @@ export function App() {
 
             <div className='space-y-4'>
               <Label>Temperatura</Label>
+
+              <span className='flex justify-end text-xs text-muted-foreground '>{temperature}</span>
 
               <Slider
                 defaultValue={[0.5]}

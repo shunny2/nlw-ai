@@ -24,6 +24,8 @@
 
 This project was created during the <b>NLW</b> (Next Level Week) event organized by [Rocketseat](https://www.rocketseat.com.br/). The <b>NLW-AI</b> was developed throughout this event, an innovative project that leverages artificial intelligence to transcribe YouTube videos and streamline the creation of high-quality titles and descriptions for audiovisual content.
 
+A finalized version can be accessed at [https://nlw-ai-2k23.vercel.app/](https://nlw-ai-2k23.vercel.app/).
+
 ## Technologies
 
 ### Frontend
